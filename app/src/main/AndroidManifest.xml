@@ -18,6 +18,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".listActivity"/>
+        <activity android:name=".stackActivity"/>
+        <activity android:name=".queueActivity"/>
+        <activity android:name=".treeActivity"/>
+        <activity android:name=".sortActivity"/>
+        <activity android:name=".searchActivity"/>
+        <activity android:name=".heapActivity"/>
+        <activity android:name=".hashActivity"/>
+        <activity android:name=".graphActivity"/>
+        <activity android:name=".stringsearchActivity"/>
     </application>
 
 </manifest>

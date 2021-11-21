@@ -30,6 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
                 <Button
+                    android:id="@+id/karprabin"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
@@ -43,6 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
                 <Button
+                    android:id="@+id/kmp"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
@@ -56,10 +58,24 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
                 <Button
+                    android:id="@+id/boyermoore"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="보이어-무어 알고리즘"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/brute"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="고지식한 알고리즘"
                     android:textSize="20dp"
                     android:textStyle="bold"/>
             </LinearLayout>

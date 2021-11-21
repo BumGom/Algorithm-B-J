@@ -30,6 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
                 <Button
+                    android:id="@+id/graphrealization"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
@@ -43,6 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
                 <Button
+                    android:id="@+id/topological"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
@@ -56,6 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
                 <Button
+                    android:id="@+id/mst"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
@@ -68,6 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
                 <Button
+                    android:id="@+id/dijkstra"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
