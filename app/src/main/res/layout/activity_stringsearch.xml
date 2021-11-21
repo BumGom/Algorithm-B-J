@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:text="정렬"
+        android:text="문자열 검색"
         android:gravity="center"
         android:textSize="15dp"
         android:textStyle="bold"/>
@@ -33,7 +33,7 @@
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:text="버블 정렬"
+                    android:text="카프-라빈 알고리즘"
                     android:textSize="20dp"
                     android:textStyle="bold"/>
 
@@ -46,7 +46,7 @@
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:text="삽입 정렬"
+                    android:text="KMP 알고리즘"
                     android:textSize="20dp"
                     android:textStyle="bold"/>
             </LinearLayout>
@@ -59,7 +59,7 @@
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:text="퀵 정렬"
+                    android:text="보이어-무어 알고리즘"
                     android:textSize="20dp"
                     android:textStyle="bold"/>
             </LinearLayout>
