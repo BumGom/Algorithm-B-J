@@ -25,7 +25,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="327dp"
-                android:src="@drawable/image"/>
+                android:src="@drawable/tree"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
