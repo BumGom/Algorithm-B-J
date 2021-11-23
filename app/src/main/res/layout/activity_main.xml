@@ -4,20 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="더보기"
-            android:layout_marginLeft="340dp"/>
-
-    </LinearLayout>
-
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -27,10 +13,16 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="더보기"
+                android:layout_marginLeft="340dp"/>
+
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="327dp"
-                android:src="@drawable/image"/>
+                android:layout_height="330dp"
+                android:src="@drawable/nothing"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -42,33 +34,17 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:background="@drawable/colorlist"
-                    android:gravity="bottom|center"
+                    android:gravity="bottom"
                     android:layout_margin="10dp"/>
-
-<!--                <Button
-                    android:id="@+id/list"
-                    android:layout_width="0dp"
-                    android:layout_height="100dp"
-                    android:layout_weight="1"
-                    android:text="1.리스트"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:gravity="bottom|center"
-                    android:layout_gravity="center"
-                    android:background="@drawable/button"
-                    android:drawableLeft="@drawable/listsizefix" />-->
 
                 <Button
                     android:id="@+id/stack"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:textStyle="bold"
                     android:gravity="bottom|center"
                     android:background="@drawable/colorstack"
-                    android:layout_margin="10dp"
-
-                    />
+                    android:layout_margin="10dp" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -79,22 +55,20 @@
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:text="3.큐"
-                    android:textSize="15dp"
-                    android:textStyle="bold"
                     android:gravity="bottom|center_horizontal"
-                    android:background="@drawable/queue"/>
+                    android:background="@drawable/colorqueue"
+                    android:layout_margin="10dp"/>
+
                 <Button
                     android:id="@+id/tree"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:text="4.트리"
-                    android:textSize="15dp"
-                    android:textStyle="bold"
-                    android:gravity="bottom|center_horizontal"
-                    android:background="@drawable/tree"/>
+                    android:background="@drawable/colortree"
+                    android:layout_margin="10dp"
+                    android:gravity="bottom"/>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -104,21 +78,15 @@
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:text="5.정렬"
-                    android:textSize="15dp"
-                    android:textStyle="bold"
-                    android:gravity="bottom|center_horizontal"
-                    android:background="@drawable/sort"/>
+                    android:background="@drawable/colorsort"
+                    android:layout_margin="10dp"/>
                 <Button
                     android:id="@+id/search"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:text="6.탐색"
-                    android:textSize="15dp"
-                    android:textStyle="bold"
-                    android:gravity="bottom|center_horizontal"
-                    android:background="@drawable/search"/>
+                    android:background="@drawable/colorsearch"
+                    android:layout_margin="10dp"/>
             </LinearLayout>
 
             <LinearLayout
@@ -130,21 +98,17 @@
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:text="7.우선 순위 큐 와 힙"
-                    android:textSize="15dp"
-                    android:textStyle="bold"
-                    android:gravity="bottom|center_horizontal"
-                    android:background="@drawable/priority"/>
+                    android:background="@drawable/colorheap"
+                    android:layout_margin="10dp"
+                    android:gravity="bottom"/>
                 <Button
                     android:id="@+id/hash"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:text="8.해쉬"
-                    android:textSize="15dp"
-                    android:textStyle="bold"
-                    android:gravity="bottom|center_horizontal"
-                    android:background="@drawable/hash"/>
+                    android:background="@drawable/colorhash"
+                    android:layout_margin="10dp"
+                    android:gravity="bottom"/>
             </LinearLayout>
 
             <LinearLayout
@@ -156,21 +120,15 @@
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:text="9.그래프"
-                    android:textSize="15dp"
-                    android:textStyle="bold"
-                    android:gravity="bottom|center_horizontal"
-                    android:background="@drawable/graph"/>
+                    android:background="@drawable/colorgraph"
+                    android:layout_margin="10dp"/>
                 <Button
                     android:id="@+id/string"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:text="10.문자열 검색"
-                    android:textSize="15dp"
-                    android:textStyle="bold"
-                    android:gravity="bottom|center_horizontal"
-                    android:background="@drawable/string"/>
+                    android:background="@drawable/colorstring"
+                    android:layout_margin="10dp"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
