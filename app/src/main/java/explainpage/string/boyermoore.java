@@ -11,6 +11,6 @@ public class boyermoore extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_boyermoore);
+        setContentView(R.layout.activity_explainpage__10_3_boyermoore);
     }
 }

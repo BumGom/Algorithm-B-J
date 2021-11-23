@@ -4,11 +4,17 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_main"
+        android:icon="@mipmap/ic_botton"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_main_round"
+        android:roundIcon="@mipmap/ic_botton"
         android:supportsRtl="true"
         android:theme="@style/Theme.AlgorithmBJ">
+        <activity
+            android:name="pseudocode.pseudocode_circularlinkedlist"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_doublelinkedlist"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -18,42 +24,43 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="submainpage.listActivity"/>
-        <activity android:name="submainpage.stackActivity"/>
-        <activity android:name="submainpage.queueActivity"/>
-        <activity android:name="submainpage.treeActivity"/>
-        <activity android:name="submainpage.sortActivity"/>
-        <activity android:name="submainpage.searchActivity"/>
-        <activity android:name="submainpage.heapActivity"/>
-        <activity android:name="submainpage.hashActivity"/>
-        <activity android:name="submainpage.graphActivity"/>
-        <activity android:name="submainpage.stringsearchActivity"/>
-        <activity android:name="explainpage.list.linkedlist"/>
-        <activity android:name="explainpage.list.doublelinkedlist"/>
-        <activity android:name="explainpage.list.circularlinkedlist"/>
-        <activity android:name="explainpage.queue.endequeue"/>
-        <activity android:name="explainpage.queue.circularqueue"/>
-        <activity android:name="explainpage.tree.tree"/>
-        <activity android:name="explainpage.tree.expressiontree"/>
-        <activity android:name="explainpage.sort.bubblesort"/>
-        <activity android:name="explainpage.sort.insertionsort"/>
-        <activity android:name="explainpage.sort.quicksort"/>
-        <activity android:name="explainpage.search.sequentialsearch"/>
-        <activity android:name="explainpage.search.binarysearch"/>
-        <activity android:name="explainpage.search.redblacktree"/>
-        <activity android:name="explainpage.priortiy.priortiyqueue"/>
-        <activity android:name="explainpage.priortiy.heap"/>
-        <activity android:name="explainpage.hash.hashtable"/>
-        <activity android:name="explainpage.hash.hashfunction"/>
-        <activity android:name="explainpage.hash.collision"/>
-        <activity android:name="explainpage.graph.graph"/>
-        <activity android:name="explainpage.graph.topologicalsort"/>
-        <activity android:name="explainpage.graph.mst"/>
-        <activity android:name="explainpage.graph.dijkstra"/>
-        <activity android:name="explainpage.string.karprabin"/>
-        <activity android:name="explainpage.string.kmp"/>
-        <activity android:name="explainpage.string.boyermoore"/>
-        <activity android:name="explainpage.string.brute"/>
+        <activity android:name="submainpage.listActivity" />
+        <activity android:name="submainpage.stackActivity" />
+        <activity android:name="submainpage.queueActivity" />
+        <activity android:name="submainpage.treeActivity" />
+        <activity android:name="submainpage.sortActivity" />
+        <activity android:name="submainpage.searchActivity" />
+        <activity android:name="submainpage.heapActivity" />
+        <activity android:name="submainpage.hashActivity" />
+        <activity android:name="submainpage.graphActivity" />
+        <activity android:name="submainpage.stringsearchActivity" />
+        <activity android:name="explainpage.list.linkedlist" />
+        <activity android:name="explainpage.list.doublelinkedlist" />
+        <activity android:name="explainpage.list.circularlinkedlist" />
+        <activity android:name="explainpage.queue.endequeue" />
+        <activity android:name="explainpage.queue.circularqueue" />
+        <activity android:name="explainpage.tree.tree" />
+        <activity android:name="explainpage.tree.expressiontree" />
+        <activity android:name="explainpage.sort.bubblesort" />
+        <activity android:name="explainpage.sort.insertionsort" />
+        <activity android:name="explainpage.sort.quicksort" />
+        <activity android:name="explainpage.search.sequentialsearch" />
+        <activity android:name="explainpage.search.binarysearch" />
+        <activity android:name="explainpage.search.redblacktree" />
+        <activity android:name="explainpage.priortiy.priortiyqueue" />
+        <activity android:name="explainpage.priortiy.heap" />
+        <activity android:name="explainpage.hash.hashtable" />
+        <activity android:name="explainpage.hash.hashfunction" />
+        <activity android:name="explainpage.hash.collision" />
+        <activity android:name="explainpage.graph.graph" />
+        <activity android:name="explainpage.graph.topologicalsort" />
+        <activity android:name="explainpage.graph.mst" />
+        <activity android:name="explainpage.graph.dijkstra" />
+        <activity android:name="explainpage.string.karprabin" />
+        <activity android:name="explainpage.string.kmp" />
+        <activity android:name="explainpage.string.boyermoore" />
+        <activity android:name="explainpage.string.brute" />
+        <activity android:name="pseudocode.pseudocode_linkedlist"/>
     </application>
 
 </manifest>

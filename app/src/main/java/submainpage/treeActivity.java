@@ -18,7 +18,7 @@ public class treeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tree);
+        setContentView(R.layout.activity_submainpage_4_tree);
 
         Button treebutton=(Button) findViewById(R.id.tree);
         treebutton.setOnClickListener(new View.OnClickListener() {

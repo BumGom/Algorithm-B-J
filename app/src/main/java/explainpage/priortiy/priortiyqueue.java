@@ -11,6 +11,6 @@ public class priortiyqueue extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_priorityqueue);
+        setContentView(R.layout.activity_explainpage_7_1_priorityqueue);
     }
 }

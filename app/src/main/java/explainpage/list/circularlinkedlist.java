@@ -11,6 +11,6 @@ public class circularlinkedlist extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_circularlinkedlist);
+        setContentView(R.layout.activity_explainpage_1_3_circularlinkedlist);
     }
 }

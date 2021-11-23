@@ -11,6 +11,6 @@ public class circularqueue extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_circularqueue);
+        setContentView(R.layout.activity_explainpage_3_2_circularqueue);
     }
 }

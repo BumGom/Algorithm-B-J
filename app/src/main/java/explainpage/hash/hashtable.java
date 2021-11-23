@@ -11,6 +11,6 @@ public class hashtable extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hashtable);
+        setContentView(R.layout.activity_explainpage_8_1_hashtable);
     }
 }

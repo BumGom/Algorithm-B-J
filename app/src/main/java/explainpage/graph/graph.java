@@ -11,6 +11,6 @@ public class graph extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_graph1);
+        setContentView(R.layout.activity_explainpage_9_1_graph1);
     }
 }

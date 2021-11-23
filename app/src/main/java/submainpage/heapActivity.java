@@ -18,7 +18,7 @@ public class heapActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_priorityqueueheap);
+        setContentView(R.layout.activity_submainpage_7_priorityqueueheap);
 
         Button pqbutton=(Button) findViewById(R.id.priorityqueue);
         pqbutton.setOnClickListener(new View.OnClickListener() {

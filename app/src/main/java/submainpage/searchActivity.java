@@ -19,7 +19,7 @@ public class searchActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_search);
+        setContentView(R.layout.activity_submainpage_6_search);
 
         Button sqsbutton=(Button) findViewById(R.id.sequentialsearch);
         sqsbutton.setOnClickListener(new View.OnClickListener() {

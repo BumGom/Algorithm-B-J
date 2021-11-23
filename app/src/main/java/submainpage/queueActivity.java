@@ -18,7 +18,7 @@ public class queueActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_queue);
+        setContentView(R.layout.activity_submainpage_3_queue);
 
         Button endeqbutton=(Button) findViewById(R.id.endequeue);
         endeqbutton.setOnClickListener(new View.OnClickListener() {

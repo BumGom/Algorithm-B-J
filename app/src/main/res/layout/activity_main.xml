@@ -30,7 +30,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="327dp"
-                android:src="@drawable/algorithm"/>
+                android:src="@drawable/image"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -41,8 +41,10 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="1.리스트"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="bottom|center_horizontal"
+                    android:background="@drawable/list"/>
 
                 <Button
                     android:id="@+id/stack"
@@ -50,8 +52,11 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="2.스텍"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="bottom|center_horizontal"
+                    android:background="@drawable/stack"
+                    />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -63,16 +68,20 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="3.큐"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="bottom|center_horizontal"
+                    android:background="@drawable/queue"/>
                 <Button
                     android:id="@+id/tree"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="4.트리"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="bottom|center_horizontal"
+                    android:background="@drawable/tree"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -84,16 +93,20 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="5.정렬"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="bottom|center_horizontal"
+                    android:background="@drawable/sort"/>
                 <Button
                     android:id="@+id/search"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="6.탐색"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="bottom|center_horizontal"
+                    android:background="@drawable/search"/>
             </LinearLayout>
 
             <LinearLayout
@@ -106,16 +119,20 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="7.우선 순위 큐 와 힙"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="bottom|center_horizontal"
+                    android:background="@drawable/priority"/>
                 <Button
                     android:id="@+id/hash"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="8.해쉬"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="bottom|center_horizontal"
+                    android:background="@drawable/hash"/>
             </LinearLayout>
 
             <LinearLayout
@@ -128,16 +145,20 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="9.그래프"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="bottom|center_horizontal"
+                    android:background="@drawable/graph"/>
                 <Button
                     android:id="@+id/string"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="10.문자열 검색"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:gravity="bottom|center_horizontal"
+                    android:background="@drawable/string"/>
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

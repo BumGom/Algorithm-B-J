@@ -11,6 +11,6 @@ public class topologicalsort extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_topologicalsorting);
+        setContentView(R.layout.activity_explainpage_9_2_topologicalsorting);
     }
 }

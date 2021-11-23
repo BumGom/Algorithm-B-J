@@ -19,7 +19,7 @@ public class hashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hash);
+        setContentView(R.layout.activity_submainpage_8_hash);
 
         Button htbutton=(Button) findViewById(R.id.hashtable);
         htbutton.setOnClickListener(new View.OnClickListener() {

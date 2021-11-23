@@ -11,6 +11,6 @@ public class bubblesort extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bubblesort);
+        setContentView(R.layout.activity_explainpage_5_1_bubblesort);
     }
 }

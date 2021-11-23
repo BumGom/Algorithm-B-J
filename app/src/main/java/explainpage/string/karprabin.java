@@ -11,6 +11,6 @@ public class karprabin extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_karprabin);
+        setContentView(R.layout.activity_explainpage__10_1_karprabin);
     }
 }

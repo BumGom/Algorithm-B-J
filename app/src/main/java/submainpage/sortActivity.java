@@ -19,7 +19,7 @@ public class sortActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sort);
+        setContentView(R.layout.activity_submainpage_5_sort);
 
         Button bbsbutton=(Button) findViewById(R.id.bubblesort);
         bbsbutton.setOnClickListener(new View.OnClickListener() {

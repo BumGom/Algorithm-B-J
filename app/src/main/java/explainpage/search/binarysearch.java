@@ -11,6 +11,6 @@ public class binarysearch extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_binarysearch);
+        setContentView(R.layout.activity_explainpage_6_2_binarysearch);
     }
 }

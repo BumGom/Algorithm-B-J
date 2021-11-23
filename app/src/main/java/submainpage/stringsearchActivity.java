@@ -20,7 +20,7 @@ public class stringsearchActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_stringsearch);
+        setContentView(R.layout.activity_submainpage__10_stringsearch);
 
         Button krbutton=(Button) findViewById(R.id.karprabin);
         krbutton.setOnClickListener(new View.OnClickListener() {
