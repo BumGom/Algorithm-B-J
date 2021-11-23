@@ -7,11 +7,11 @@ import android.os.Bundle;
 
 import com.example.algorithm_bj.R;
 
-public class pseudocode_circularlinkedlist extends AppCompatActivity {
+public class pseudocode_1_3_circularlinkedlist extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pseudocode_1_3_circularlinkedlist);
+        setContentView(R.layout.activity_pseudocode13_circularlinkedlist);
     }
 }

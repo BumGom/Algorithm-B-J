@@ -7,11 +7,11 @@ import android.os.Bundle;
 
 import com.example.algorithm_bj.R;
 
-public class pseudocode_linkedlist extends AppCompatActivity {
+public class pseudocode_1_2_doublelinkedlist extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pseudocode_1_1_linkedlist);
+        setContentView(R.layout.activity_pseudocode12_doublelinkedlist);
     }
 }

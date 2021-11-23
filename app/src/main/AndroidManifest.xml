@@ -4,16 +4,88 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_botton"
+        android:icon="@mipmap/icon_fixed_main"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_botton"
+        android:roundIcon="@mipmap/icon_fixed_main_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AlgorithmBJ">
         <activity
-            android:name="pseudocode.pseudocode_circularlinkedlist"
+            android:name="pseudocode.pseudocode_10_4_boringsearch"
             android:exported="true" />
         <activity
-            android:name="pseudocode.pseudocode_doublelinkedlist"
+            android:name="pseudocode.pseudocode_10_3_boyermoore"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_10_2_kmo"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_10_1_karprabin"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_9_4_dijkstra"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_9_3_mst"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_9_2_topologicalsort"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_9_1_graph"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_8_3_collision"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_8_2_hashfunction"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_8_1_hashtable"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_7_2_heap"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_7_1_priorityqueue"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_6_3_redblacktree"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_6_2_binarysearch"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_6_1_sequentialsearch"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_5_3_quicksort"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_5_2_insertionsort"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_5_1_bubblesort"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_4_2_expressiontree"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_4_tree"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_3_2_circularqueue"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_3_1_endequeue"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_2_stack"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_1_3_circularlinkedlist"
+            android:exported="true" />
+        <activity
+            android:name="pseudocode.pseudocode_1_2_doublelinkedlist"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
@@ -60,7 +132,7 @@
         <activity android:name="explainpage.string.kmp" />
         <activity android:name="explainpage.string.boyermoore" />
         <activity android:name="explainpage.string.brute" />
-        <activity android:name="pseudocode.pseudocode_linkedlist"/>
+        <activity android:name="pseudocode.pseudocode_1_1linkedlist" />
     </application>
 
 </manifest>

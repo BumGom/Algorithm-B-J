@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.algorithm_bj.R;
 
-import pseudocode.pseudocode_linkedlist;
+import pseudocode.pseudocode_1_1linkedlist;
 
 public class linkedlist extends AppCompatActivity {
     @Override
@@ -22,7 +22,7 @@ public class linkedlist extends AppCompatActivity {
         pllbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(getApplicationContext(), pseudocode_linkedlist.class);
+                Intent intent=new Intent(getApplicationContext(), pseudocode_1_1linkedlist.class);
                 startActivity(intent);
             }
         });

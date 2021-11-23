@@ -41,10 +41,15 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="1.리스트"
-                    android:textSize="15dp"
+                    android:textSize="20dp"
                     android:textStyle="bold"
-                    android:gravity="bottom|center_horizontal"
-                    android:background="@drawable/list"/>
+                    android:gravity="bottom|center"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button"
+                    android:drawableLeft="@drawable/listsizefix"
+
+
+                    />
 
                 <Button
                     android:id="@+id/stack"
@@ -52,10 +57,11 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:text="2.스텍"
-                    android:textSize="15dp"
+                    android:textSize="20dp"
                     android:textStyle="bold"
-                    android:gravity="bottom|center_horizontal"
-                    android:background="@drawable/stack"
+                    android:gravity="bottom|center"
+                    android:background="@drawable/button"
+                    android:drawableLeft="@drawable/stacksizefix"
                     />
             </LinearLayout>
             <LinearLayout
