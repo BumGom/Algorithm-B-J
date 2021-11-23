@@ -26,7 +26,7 @@
                 android:src="@drawable/image"/>
 
             <Button
-                android:id="@+id/pseudocode_linkedlist"
+                android:onClick="mOnPopupClick"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
@@ -37,6 +37,21 @@
                 android:layout_height="wrap_content"
                 android:text="설명"/>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textResult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
         </LinearLayout>
+
     </ScrollView>
 </LinearLayout>

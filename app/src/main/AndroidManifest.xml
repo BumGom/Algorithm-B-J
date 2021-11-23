@@ -132,7 +132,7 @@
         <activity android:name="explainpage.string.kmp" />
         <activity android:name="explainpage.string.boyermoore" />
         <activity android:name="explainpage.string.brute" />
-        <activity android:name="pseudocode.pseudocode_1_1linkedlist" />
+        <activity android:name="pseudocode.pseudocode_1_1linkedlist" android:theme="@android:style/Theme.Dialog"/>
     </application>
 
 </manifest>

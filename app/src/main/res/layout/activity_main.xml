@@ -35,7 +35,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1">
+
                 <Button
+                    android:id="@+id/list"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/colorlist"
+                    android:gravity="bottom|center"
+                    android:layout_margin="10dp"/>
+
+<!--                <Button
                     android:id="@+id/list"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
@@ -46,22 +56,18 @@
                     android:gravity="bottom|center"
                     android:layout_gravity="center"
                     android:background="@drawable/button"
-                    android:drawableLeft="@drawable/listsizefix"
-
-
-                    />
+                    android:drawableLeft="@drawable/listsizefix" />-->
 
                 <Button
                     android:id="@+id/stack"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:text="2.스텍"
-                    android:textSize="20dp"
                     android:textStyle="bold"
                     android:gravity="bottom|center"
-                    android:background="@drawable/button"
-                    android:drawableLeft="@drawable/stacksizefix"
+                    android:background="@drawable/colorstack"
+                    android:layout_margin="10dp"
+
                     />
             </LinearLayout>
             <LinearLayout
