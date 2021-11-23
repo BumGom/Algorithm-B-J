@@ -23,7 +23,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="327dp"
-                android:src="@drawable/image"/>
+                android:src="@drawable/graph_1"/>
 
             <Button
                 android:layout_width="70dp"
