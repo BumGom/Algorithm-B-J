@@ -37,6 +37,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
+                    android:background="@drawable/colorhashtable"
                     android:layout_margin="10dp"/>
 
                 <Button
@@ -46,6 +47,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
+                    android:background="@drawable/colorhashfunction"
                     android:layout_margin="10dp"/>
 
                 <Button
@@ -55,6 +57,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
+                    android:background="@drawable/colorcollision"
                     android:layout_margin="10dp"/>
 
             </LinearLayout>

@@ -36,6 +36,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
+                    android:background="@drawable/colorsequentialsearch"
                     android:layout_margin="10dp"/>
 
                 <Button
@@ -45,6 +46,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
+                    android:background="@drawable/colorbinarysearch"
                     android:layout_margin="10dp"/>
 
                 <Button
@@ -54,6 +56,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
+                    android:background="@drawable/colorredblacktree"
                     android:layout_margin="10dp"/>
 
             </LinearLayout>

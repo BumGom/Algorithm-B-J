@@ -36,6 +36,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
+                    android:background="@drawable/colorgraph1"
                     android:layout_margin="10dp"/>
 
                 <Button
@@ -45,6 +46,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
+                    android:background="@drawable/colortopologicalsort"
                     android:layout_margin="10dp"/>
 
             </LinearLayout>
@@ -60,6 +62,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
+                    android:background="@drawable/colormst"
                     android:layout_margin="10dp"/>
 
                 <Button
@@ -69,6 +72,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
+                    android:background="@drawable/colordijkstra"
                     android:layout_margin="10dp"/>
 
             </LinearLayout>
