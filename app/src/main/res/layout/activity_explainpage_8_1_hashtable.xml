@@ -37,9 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="
-해시 테이블
-\n
-- 해시 함수를 사용하여 변환한 값을 색인(index)으로 삼아 (Key, Value)로 데이터를 저장하는 자료구조 중 하나로 빠르게 데이터를 검색할 수 있는 자료구조이다."
+해시 함수를 사용하여 변환한 값을 색인(index)으로 삼아 (Key, Value)로 데이터를 저장하는 자료구조 중 하나로 빠르게 데이터를 검색할 수 있는 자료구조이다."
                 android:textSize="15dp"
                 android:textStyle="bold"/>
 

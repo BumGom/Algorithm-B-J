@@ -36,7 +36,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="링크드 리스트의 탐색 기능을 개선한 자료구조\n\n링크드 리스트의 단점인 단방향 탐색을 개선 양방향 탐색 가능"/>
+                android:text="링크드 리스트의 탐색 기능을 개선한 자료구조\n\n링크드 리스트의 단점인 단방향 탐색을 개선 양방향 탐색 가능"
+                android:textStyle="bold"
+                />
 
         </LinearLayout>
     </ScrollView>

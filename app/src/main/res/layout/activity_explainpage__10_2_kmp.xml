@@ -35,7 +35,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="설명"/>
+                android:text="'고지식한 알고리즘'처럼 검색 위치를 본문의 왼쪽부터 시작해서 오른쪽으로 옮겨 가며 문자를 직접 비교하는 방식으로 동작한다.
+\n'고지식한 알고리즘'과 달리, 비교할 필요가 없는 부분은 지나치고, 비교가 필요한 부분만 비교를 수행하는 알고리즘 이다.
+\n\nKMP 알고리즘의 객체
+\n접두부 : 문자열의 머리부분
+\n접미부 : 문자열의 꼬리부분
+\n경계 : 문자열에서 일치하는 접두부와 접미부의 쌍"
+                android:textStyle="bold"
+                />
 
         </LinearLayout>
     </ScrollView>
