@@ -29,7 +29,7 @@
         <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_explainpage_1_1_linkedlist.xml" value="0.25" />
         <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_explainpage_1_2_doublelinkedlist.xml" value="0.28804347826086957" />
         <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_explainpage_1_3_circularlinkedlist.xml" value="0.28804347826086957" />
-        <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_explainpage_2_stack.xml" value="0.1" />
+        <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_explainpage_2_stack.xml" value="0.33" />
         <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_explainpage_3_1_endequeue.xml" value="0.1" />
         <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_explainpage_3_2_circularqueue.xml" value="0.28351449275362317" />
         <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_explainpage_4_1_tree1.xml" value="0.28351449275362317" />
@@ -122,9 +122,9 @@
         <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_submainpage_1_list.xml" value="0.25" />
         <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_submainpage_2_stack.xml" value="0.3380208333333333" />
         <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_submainpage_3_queue.xml" value="0.25" />
-        <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_submainpage_4_tree.xml" value="0.3380208333333333" />
-        <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_submainpage_5_sort.xml" value="0.3380208333333333" />
-        <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_submainpage_6_search.xml" value="0.3380208333333333" />
+        <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_submainpage_4_tree.xml" value="0.22" />
+        <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_submainpage_5_sort.xml" value="0.25" />
+        <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_submainpage_6_search.xml" value="0.22" />
         <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_submainpage_7_priorityqueueheap.xml" value="0.3380208333333333" />
         <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_submainpage_8_hash.xml" value="0.2520833333333333" />
         <entry key="..\:/Users/Junho/AndroidStudioProjects/Algorithm-B-J/app/src/main/res/layout/activity_submainpage_9_graph.xml" value="0.3380208333333333" />
