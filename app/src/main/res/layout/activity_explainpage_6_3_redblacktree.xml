@@ -24,7 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/redblacktree"/>
+                android:src="@drawable/image_6_3_redblacktree"/>
 
             <Button
                 android:onClick="mOnPopupClick"

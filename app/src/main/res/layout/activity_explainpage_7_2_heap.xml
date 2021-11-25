@@ -23,7 +23,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="327dp"
-                android:src="@drawable/heap"/>
+                android:src="@drawable/image_7_2_heap"/>
 
             <Button
                 android:onClick="mOnPopupClick"

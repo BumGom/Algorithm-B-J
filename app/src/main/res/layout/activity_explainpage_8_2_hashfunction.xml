@@ -23,7 +23,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="327dp"
-                android:src="@drawable/hashfunction"/>
+                android:src="@drawable/image_8_2_hashfunction"/>
 
             <Button
                 android:onClick="mOnPopupClick"

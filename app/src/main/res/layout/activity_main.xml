@@ -46,7 +46,7 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:gravity="bottom|center"
-                    android:background="@drawable/colorpushpopstack"
+                    android:background="@drawable/maincolorpushpopstack"
                     android:layout_margin="10dp" />
             </LinearLayout>
             <LinearLayout
@@ -59,7 +59,7 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:gravity="bottom|center_horizontal"
-                    android:background="@drawable/colorqueue"
+                    android:background="@drawable/maincolorqueue"
                     android:layout_margin="10dp"/>
 
                 <Button
@@ -67,7 +67,7 @@
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:background="@drawable/colortree"
+                    android:background="@drawable/maincolortree"
                     android:layout_margin="10dp"
                     android:gravity="bottom"/>
             </LinearLayout>
@@ -101,7 +101,7 @@
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:background="@drawable/colorheap"
+                    android:background="@drawable/maincolorheap"
                     android:layout_margin="10dp"
                     android:gravity="bottom"/>
                 <Button
@@ -123,7 +123,7 @@
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:background="@drawable/colorgraph"
+                    android:background="@drawable/maincolorgraph"
                     android:layout_margin="10dp"/>
                 <Button
                     android:id="@+id/string"

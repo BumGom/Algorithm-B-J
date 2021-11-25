@@ -23,7 +23,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="327dp"
-                android:src="@drawable/binarysearch"/>
+                android:src="@drawable/image_6_2_binarysearch"/>
 
             <Button
                 android:onClick="mOnPopupClick"

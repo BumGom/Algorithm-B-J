@@ -23,7 +23,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="327dp"
-                android:src="@drawable/quicksort"/>
+                android:src="@drawable/image_5_3_quicksort"/>
 
             <Button
                 android:onClick="mOnPopupClick"
