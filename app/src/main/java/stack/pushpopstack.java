@@ -25,7 +25,26 @@ public class pushpopstack extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_2_stack.class);
-        intent.putExtra("data", "stack 수도코드 작성하기");
+        intent.putExtra("data", "삽입 연산\n" +
+                "push(s, item)\n" +
+                "\tnewnode ← getnode();\n" +
+                "\tnewnode.data ← item;\n" +
+                "\tnewnode.link ← top;\n" +
+                "\ttop ← newnode;\n" +
+                "end push()\n" +
+                "\n" +
+                "\n" +
+                "삭제 연산\n" +
+                "pop(s)\n" +
+                "\tif(top = null) then\n" +
+                "\t\treturn null;\n" +
+                "\telse {\n" +
+                "\t\t\titem ← top.data;\n" +
+                "\t\t\ttop = top.link;\n" +
+                "\t\t\treturnnode(oldnode);\n" +
+                "\t\t\treturn item;\n" +
+                "\t\t }\n" +
+                "end pop()");
         startActivityForResult(intent,1);
     }
 
