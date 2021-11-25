@@ -36,7 +36,12 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="설명"/>
+                android:text="데이터 집합의 처음부터 끝까지 차례대로 모든 요소를 비교해서 데이터를 찾는 탐색 알고리즘이다.
+순차 탐색은 한쪽 방향으로만 탐색을 수행한다고 해서 선형 탐색(Linear Search)이라고 부르기도 한다.\n\n장점\n- 특정한 원소를 찾기 위해 원소를 순차적으로 하나씩 탐색하여 O(n)의 시간 복잡도를 가지고,
+탐색 방법 중 가장 단순하여 구현이 쉽고, 정렬되지 않은 리스트에서도 사용할 수 있다는 장점이 있다.
+\n\n단점\n- 탐색할 리스트의 길이가 길면 비효율적이다."
+                android:textSize="15dp"
+                android:textStyle="bold"/>
 
         </LinearLayout>
     </ScrollView>
