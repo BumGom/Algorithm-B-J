@@ -33,7 +33,6 @@
                     android:id="@+id/graphrealization"
                     android:layout_width="0dp"
                     android:layout_height="150dp"
-                    android:layout_gravity="center"
                     android:layout_weight="1"
                     android:background="@drawable/explaincolorgraph1"
                     android:layout_margin="20dp"/>
@@ -42,7 +41,6 @@
                     android:id="@+id/topological"
                     android:layout_width="0dp"
                     android:layout_height="150dp"
-                    android:layout_gravity="center"
                     android:layout_weight="1"
                     android:background="@drawable/explaincolortopologicalsort"
                     android:layout_margin="20dp"/>
@@ -57,7 +55,6 @@
                     android:id="@+id/mst"
                     android:layout_width="0dp"
                     android:layout_height="150dp"
-                    android:layout_gravity="center"
                     android:layout_weight="1"
                     android:background="@drawable/explaincolormst"
                     android:layout_margin="20dp"/>
@@ -66,7 +63,6 @@
                 android:id="@+id/dijkstra"
                     android:layout_width="0dp"
                     android:layout_height="150dp"
-                    android:layout_gravity="center"
                     android:layout_weight="1"
                     android:background="@drawable/explaincolordijkstra"
                     android:layout_margin="20dp"/>

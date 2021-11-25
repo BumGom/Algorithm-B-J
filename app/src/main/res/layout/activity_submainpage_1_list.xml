@@ -33,22 +33,22 @@
                 <Button
                     android:id="@+id/linkedlist"
                     android:layout_width="0dp"
-                    android:layout_height="120dp"
+                    android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
                     android:background="@drawable/explaincolorlinkedlist"
-                    android:layout_margin="10dp"/>
+                    android:layout_margin="20dp"/>
 
                 <Button
                     android:id="@+id/doublelinkedlist"
                     android:layout_width="0dp"
-                    android:layout_height="120dp"
+                    android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
                     android:background="@drawable/explaincolordoublelinkedlist"
-                    android:layout_margin="10dp"/>
+                    android:layout_margin="20dp"/>
 
             </LinearLayout>
             <LinearLayout
@@ -57,10 +57,11 @@
 
                 <Button
                     android:id="@+id/circularlinkedlist"
-                    android:layout_width="185dp"
+                    android:layout_width="166dp"
                     android:layout_height="150dp"
-                    android:background="@drawable/explaincolorcircularlinkedlist"
-                    android:layout_margin="10dp"/>
+                    android:layout_gravity="left"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/explaincolorcircularlinkedlist" />
 
             </LinearLayout>
 

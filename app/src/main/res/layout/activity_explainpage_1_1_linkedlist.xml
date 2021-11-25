@@ -62,8 +62,6 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"/>
             </LinearLayout>
-
         </LinearLayout>
-
     </ScrollView>
 </LinearLayout>

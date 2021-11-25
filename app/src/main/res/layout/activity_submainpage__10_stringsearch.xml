@@ -33,7 +33,6 @@
                     android:id="@+id/karprabin"
                     android:layout_width="0dp"
                     android:layout_height="150dp"
-                    android:layout_gravity="center"
                     android:layout_weight="1"
                     android:background="@drawable/explaincolorkarprabin"
                     android:layout_margin="20dp"/>
@@ -42,7 +41,7 @@
                     android:id="@+id/kmp"
                     android:layout_width="0dp"
                     android:layout_height="150dp"
-                    android:layout_gravity="center"
+
                     android:layout_weight="1"
                     android:background="@drawable/explaincolorkmp"
                     android:layout_margin="20dp"/>
@@ -56,7 +55,6 @@
                     android:id="@+id/boyermoore"
                     android:layout_width="0dp"
                     android:layout_height="150dp"
-                    android:layout_gravity="center"
                     android:layout_weight="1"
                     android:background="@drawable/explaincolorboyermoore"
                     android:layout_margin="20dp"/>
@@ -65,7 +63,6 @@
                     android:id="@+id/brute"
                     android:layout_width="0dp"
                     android:layout_height="150dp"
-                    android:layout_gravity="center"
                     android:layout_weight="1"
                     android:layout_margin="20dp"
                     android:background="@drawable/explainboring"/>

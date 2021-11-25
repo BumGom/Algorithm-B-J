@@ -48,8 +48,6 @@
                     android:background="@drawable/explaincolorhashfunction"
                     android:layout_margin="20dp"/>
 
-
-
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"

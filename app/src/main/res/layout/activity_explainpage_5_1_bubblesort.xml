@@ -35,7 +35,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="설명"/>
+                android:text="데이터 집합을 순회하면서 집합 내의 이웃 요소들끼리의 교환을 통해 정렬을 수행하는 알고리즘이다.\n\n장점\n- 인접한 값만 계속해서 비교하는 방식으로 구현이 쉬우며, 코드가 직관적이다. n개 원소에 대해 n개의 메모리를
+사용하기에 데이터를 하나씩 정밀 비교가 가능하다.\n\n단점\n- 최선이든 최악이든 O(n^2)이라는 시간복잡도를 가진다. n개 원소에 대해 n개의 메모리를 사용하기에 원소의
+개수가 많아지면 비교 횟수가 많아져 성능이 저하된다."
+                android:textSize="15dp"
+                android:textStyle="bold"/>
 
         </LinearLayout>
     </ScrollView>
