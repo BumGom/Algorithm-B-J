@@ -10,84 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AlgorithmBJ">
         <activity
-            android:name="pseudocode.pseudocode_10_4_boringsearch"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_10_3_boyermoore"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_10_2_kmo"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_10_1_karprabin"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_9_4_dijkstra"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_9_3_mst"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_9_2_topologicalsort"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_9_1_graph"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_8_3_collision"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_8_2_hashfunction"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_8_1_hashtable"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_7_2_heap"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_7_1_priorityqueue"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_6_3_redblacktree"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_6_2_binarysearch"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_6_1_sequentialsearch"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_5_3_quicksort"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_5_2_insertionsort"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_5_1_bubblesort"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_4_2_expressiontree"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_4_tree"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_3_2_circularqueue"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_3_1_endequeue"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_2_stack"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_1_3_circularlinkedlist"
-            android:exported="true" />
-        <activity
-            android:name="pseudocode.pseudocode_1_2_doublelinkedlist"
-            android:exported="true" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -133,6 +55,31 @@
         <activity android:name="explainpage.string.boyermoore" />
         <activity android:name="explainpage.string.brute" />
         <activity android:name="pseudocode.pseudocode_1_1linkedlist" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_1_2_doublelinkedlist" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_1_3_circularlinkedlist" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_2_stack" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_3_1_endequeue" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_4_tree" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_4_2_expressiontree" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_5_1_bubblesort" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_5_2_insertionsort" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_5_3_quicksort" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_6_1_sequentialsearch" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_6_2_binarysearch" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_6_3_redblacktree" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_7_1_priorityqueue" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_7_2_heap" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_8_1_hashtable" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_8_2_hashfunction" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_8_3_collision" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_9_1_graph" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_9_2_topologicalsort" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_9_3_mst" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_9_4_dijkstra" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_10_1_karprabin" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_10_2_kmo" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_10_3_boyermoore" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name="pseudocode.pseudocode_10_4_boringsearch" android:theme="@android:style/Theme.Dialog"/>
     </application>
 
 </manifest>

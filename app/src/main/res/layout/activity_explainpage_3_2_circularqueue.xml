@@ -22,15 +22,16 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="327dp"
+                android:layout_height="350dp"
+                android:scaleType="centerCrop"
                 android:src="@drawable/circularqueue"/>
 
             <Button
+                android:onClick="mOnPopupClick"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_gravity="right"
-                android:background="@drawable/kuniver"
-                android:text=""/>
+                android:background="@drawable/kuniver"/>
 
             <TextView
                 android:layout_width="match_parent"
