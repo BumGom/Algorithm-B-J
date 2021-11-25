@@ -24,7 +24,24 @@ public class collision extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_1_2_doublelinkedlist.class);
-        intent.putExtra("data", " collision 수도코드 작성하기");
+        intent.putExtra("data", "typedef char* KeyType;\n" +
+                "typedef char* ValueType;\n" +
+                "\n" +
+                "typedef struct tagNode;\n" +
+                "{\n" +
+                "\tKeyType Key;\n" +
+                "\tValueType Value;\n" +
+                "\n" +
+                "\tstruct tagNode* Next;\n" +
+                "}Node;\n" +
+                "\n" +
+                "typedef Node* List;\n" +
+                "\n" +
+                "Typedef strct tagHashTable\n" +
+                "{\n" +
+                "\tint TableSize;\n" +
+                "\tList* Table;\n" +
+                "}HashTable;");
         startActivityForResult(intent,1);
     }
 

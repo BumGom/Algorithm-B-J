@@ -24,7 +24,22 @@ public class sequentialsearch extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_1_2_doublelinkedlist.class);
-        intent.putExtra("data", "insertionsort 수도코드 작성하기");
+        intent.putExtra("data", "Node* SLL_SequentialSearch(Node* Head, int Target)\n" +
+                "{\n" +
+                "   Node* Current = Head;\n" +
+                "   Node* Match = NULL;\n" +
+                "   while(Current != NULL)\n" +
+                "{\n" +
+                "\tif(Current->Data == Target)\n" +
+                "{\n" +
+                "\t\tMatch = Current;\n" +
+                "\t\tbreak;\n" +
+                "\t}\n" +
+                "\telse\n" +
+                "\t\tCurrent = Current->NextNode;\n" +
+                "   }\n" +
+                "   return Match;\n" +
+                "}");
         startActivityForResult(intent,1);
     }
 

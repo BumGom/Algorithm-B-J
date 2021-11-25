@@ -25,7 +25,19 @@ public class heap extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_1_2_doublelinkedlist.class);
-        intent.putExtra("data", "heap 수도코드 작성하기");
+        intent.putExtra("data", "typedef int ElementType;\n" +
+                "\n" +
+                "typedef struct tageHeapNode\n" +
+                "{\n" +
+                "\tElementType Data;\n" +
+                "}HeapNode;\n" +
+                "\n" +
+                "typedef struct tagHeap\n" +
+                "{\n" +
+                "\tHeapNode* Nodes;\n" +
+                "\tint Capacity;\n" +
+                "\tint UsedSize;\n" +
+                "} Heap;");
         startActivityForResult(intent,1);
     }
 

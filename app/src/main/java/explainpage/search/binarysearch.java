@@ -24,7 +24,23 @@ public class binarysearch extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_1_2_doublelinkedlist.class);
-        intent.putExtra("data", "sequentialsearch 수도코드 작성하기");
+        intent.putExtra("data", "ElementType BinarySearch(ElementType DataSet[], int size, ElementType Target){\n" +
+                "   int Left, Right, Mid;\n" +
+                "   Left = 0;\n" +
+                "   Right = size - 1;\n" +
+                "\n" +
+                "   while(Left <= Right)\n" +
+                "{\n" +
+                "\tMid = (Left + Right) / 2;\n" +
+                "   if(Target == DataSet[Mid])\n" +
+                "\treturn DataSet[Mid];\n" +
+                "   else if(Target > DataSet[Mid])\n" +
+                "\tLeft = Mid + 1;\n" +
+                "   else\n" +
+                "\tRight = Mid + 1;\n" +
+                "   }\n" +
+                "   return NULL;\n" +
+                "}");
         startActivityForResult(intent,1);
     }
 

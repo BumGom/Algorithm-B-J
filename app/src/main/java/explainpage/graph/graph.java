@@ -25,7 +25,28 @@ public class graph extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_1_2_doublelinkedlist.class);
-        intent.putExtra("data", "graph 수도코드 작성하기");
+        intent.putExtra("data", "typedef struct tagVertex\n" +
+                "{\n" +
+                "\tElementType Data;\n" +
+                "\tint Visited;\n" +
+                "\tint Index;\n" +
+                "\tstruct tagVertex* Next;\n" +
+                "\tstruct tagEdge* AdjacencyList;\n" +
+                "} Vertex;\n" +
+                "\n" +
+                "typedef struct tagEdge\n" +
+                "{\n" +
+                "\tint Weight;\n" +
+                "\tstruct tagEdge* Next;\n" +
+                "\tVertex* From;\n" +
+                "\tVertex* Target;\n" +
+                "} Edge;\n" +
+                "\n" +
+                "typedef struct tagGraph\n" +
+                "{\n" +
+                "\tVertex* Vertices;\n" +
+                "\tint VertexCount;\n" +
+                "} Graph;");
         startActivityForResult(intent,1);
     }
 

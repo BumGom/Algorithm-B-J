@@ -24,7 +24,11 @@ public class hashfunction extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_1_2_doublelinkedlist.class);
-        intent.putExtra("data", "hashfuntion 수도코드 작성하기");
+        intent.putExtra("data", "typedef struct tagNode\n" +
+                "{\n" +
+                "\tKeyType Key;\n" +
+                "\tValueType Value;\n" +
+                "}Node;");
         startActivityForResult(intent,1);
     }
 

@@ -25,7 +25,17 @@ public class mst extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_1_2_doublelinkedlist.class);
-        intent.putExtra("data", "mst 수도코드 작성하기");
+        intent.putExtra("data", "pirm(G,s) :\n" +
+                "\tfor each u∈V do\n" +
+                "\t   dist[u] <- ∞\n" +
+                "\tdist[u] <- 0\n" +
+                "\t우선순위 큐 Q에 모든 정점을 삽입(우선순위 dist[])\n" +
+                "\tfor i <- 0 to n-1 do\n" +
+                "\t   u <- delete_min(Q)\n" +
+                "\t   화면에 u를 출력\n" +
+                "\t   for each v∈(u의 인접 정점) do\n" +
+                "\t\tif(v∈Q and weight[u][v] < dist[v])\n" +
+                "\t\t   then dist[v] <- weight[u][v]");
         startActivityForResult(intent,1);
     }
 
