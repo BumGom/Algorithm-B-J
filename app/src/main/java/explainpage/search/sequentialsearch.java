@@ -16,7 +16,7 @@ public class sequentialsearch extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_explainpage_5_2_insertionsort);
+        setContentView(R.layout.activity_explainpage_6_1_sequentialsearch);
 
         txtResult = (TextView) findViewById(R.id.textResult);
     }

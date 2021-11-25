@@ -16,7 +16,7 @@ public class endequeue extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_explainpage_1_2_doublelinkedlist);
+        setContentView(R.layout.activity_explainpage_3_1_endequeue);
 
         txtResult = (TextView) findViewById(R.id.textResult);
     }
