@@ -36,7 +36,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="설명"/>
+                android:text="수식 트리는 수식을 표현하는 이진 트리이다.\n\n수식트리는 하나의 연산자와 두개의 피연산자를 취한다는 가정 아래 다음의 규칙을 가진다.\n\n1.피연산자는 잎 노드이다.\n2.연산자는 루트 노드, 또는 가지노드이다."/>
 
         </LinearLayout>
     </ScrollView>
