@@ -36,7 +36,18 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="설명"/>
+                android:text="
+연결되어 있는 객체 간의 관계를 표현하는 자료구조로 정점의 집합을 V, 간선의 집합을 E, 그리고 그래프를 G라고 했을 때, G=(V, E)이다.
+\n\n
+그래프의 종류
+\n	무방향 그래프 : 간선을 통해 양방향으로 갈 수 있음
+\n	방향 그래프 : 간선을 통해 한 쪽 방향으로만 갈 수 있음
+\n\n그래프 탐색 방법
+\n	깊이우선탐색(DFS) : 한 방향으로 갈 수 있을 때까지 가다가, 더 이상 갈 수 없게 되면, 가장 가까운 갈림길로 돌아와서 다른 방향으로 다시 탐색 진행
+\n	너비우선탐색(BFS) : 시작 정점으로부터 가까운 정점을 먼저 방문하고, 멀리 떨어져 있는 정점을 나중에 방문하는 탐색 방법
+"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
 
         </LinearLayout>
     </ScrollView>
