@@ -24,7 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="330dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/image__10_2_karprabin"/>
+                android:src="@drawable/image__10_1_karprabin"/>
 
             <Button
                 android:onClick="mOnPopupClick"
@@ -36,7 +36,16 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="설명"/>
+                android:text="
+문자열 검색을위해 해시 함수를 이용한다. 패턴 내의 문자들을 일일이 비교하는 대신에 패턴의 해시 값과 본문 안에 있는 하위 문자열의 해시 값만 을 비교하는 것이다.
+S 는 문자열 S[n]은 문자열 내의 n번째 문자, m은 문자열의 길이이다.
+\n\n(//수식1번 참조//)
+\n\n
+위의 함수를 정리하게 되면\n\n(//수식 2번 참조//)\n\n 패턴의 길이와 상관없이 본문의 길이에만 영향을 받는 탐색이 된다.\n
+탐색하고자 하는 패턴의 해시값과일치하는 해시값이 존재할 경우 직접 비교를 통해일치 여부를 확인하면 된다. 만약 해시값이 일치 하지 않는다면 일치 하지 않는 문자열이다.
+카프라빈 알고리즘은 해시 함수를 이용하기때문에 시간복잡도는 O(1)의 시간복잡도를 갖는다."
+                android:textSize="15dp"
+                android:textStyle="bold"/>
 
         </LinearLayout>
     </ScrollView>
