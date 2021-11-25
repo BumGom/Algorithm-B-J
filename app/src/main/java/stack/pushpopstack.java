@@ -1,4 +1,4 @@
-package explainpage.search;
+package stack;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,36 +10,22 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.algorithm_bj.R;
 
-public class sequentialsearch extends AppCompatActivity {
+public class pushpopstack extends AppCompatActivity {
+
     TextView txtResult;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_explainpage_6_1_sequentialsearch);
+        setContentView(R.layout.activity_explainpage_2_stack);
 
         txtResult = (TextView) findViewById(R.id.textResult);
     }
 
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
-        Intent intent = new Intent(this, pseudocode.pseudocode_6_1_sequentialsearch.class);
-        intent.putExtra("data", "Node* SLL_SequentialSearch(Node* Head, int Target)\n" +
-                "{\n" +
-                "   Node* Current = Head;\n" +
-                "   Node* Match = NULL;\n" +
-                "   while(Current != NULL)\n" +
-                "{\n" +
-                "\tif(Current->Data == Target)\n" +
-                "{\n" +
-                "\t\tMatch = Current;\n" +
-                "\t\tbreak;\n" +
-                "\t}\n" +
-                "\telse\n" +
-                "\t\tCurrent = Current->NextNode;\n" +
-                "   }\n" +
-                "   return Match;\n" +
-                "}");
+        Intent intent = new Intent(this, pseudocode.pseudocode_2_stack.class);
+        intent.putExtra("data", "stack 수도코드 작성하기");
         startActivityForResult(intent,1);
     }
 

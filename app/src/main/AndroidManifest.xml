@@ -36,7 +36,8 @@
         <activity android:name="submainpage.stringsearchActivity" />
         <activity android:name="explainpage.list.linkedlist" />
         <activity android:name="explainpage.list.doublelinkedlist" />
-        <activity android:name="explainpage.list.circularlinkedlist" />
+        <activity android:name="explainpage.list.circularlinkedlist"/>
+        <activity android:name="stack.pushpopstack"/>
         <activity android:name="explainpage.queue.endequeue" />
         <activity android:name="explainpage.queue.circularqueue" />
         <activity android:name="explainpage.tree.tree" />
