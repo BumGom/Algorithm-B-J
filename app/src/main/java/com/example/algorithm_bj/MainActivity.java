@@ -1,13 +1,18 @@
 package com.example.algorithm_bj;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+import androidx.appcompat.widget.Toolbar;
 
 import submainpage.graphActivity;
 import submainpage.hashActivity;
@@ -27,7 +32,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       Button listButton=(Button)findViewById(R.id.list);
+        Toolbar toolbar=(Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        ActionBar actionBar=getSupportActionBar();
+        actionBar.setDisplayShowCustomEnabled(true);
+        actionBar.setDisplayShowTitleEnabled(false);
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
+        Button listButton=(Button)findViewById(R.id.list);
         listButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
@@ -109,10 +122,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main_option,menu);
+        MenuInflater menuInflater=getMenuInflater();
+        menuInflater.inflate(R.menu.main_option,menu);
         return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.menu1:
+                Toast.makeText(getApplicationContext(),"개발자들",Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.menu2:
+                Toast.makeText(getApplicationContext(),"참고 문헌",Toast.LENGTH_SHORT).show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 }
