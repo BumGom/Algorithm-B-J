@@ -28,7 +28,11 @@ public class linkedlist extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_1_1linkedlist.class);
-        intent.putExtra("data", "linkedlist 수도코드 작성하기");
+        intent.putExtra("data", "struct Node\n" +
+                "{\n" +
+                "\tData;\n" +
+                "\tstruct Node* NextNode;\n" +
+                "}Node;");
         startActivityForResult(intent,1);
     }
 

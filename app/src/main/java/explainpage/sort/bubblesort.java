@@ -25,7 +25,18 @@ public class bubblesort extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_1_2_doublelinkedlist.class);
-        intent.putExtra("data", "bubblesort 수도코드 작성하기");
+        intent.putExtra("data", "void BubbleSort(int DataSet[], int Length){\n" +
+                "   int i, j, temp = 0;\n" +
+                "   for(i=0; i<Length-1; i++){\n" +
+                "\tfor(j=0; j<Length-(i+1); j++){\n" +
+                "\t\tif(DataSet[j] > DataSet[j+1]){\n" +
+                "\t\t\ttemp = DataSet[j+1];\n" +
+                "\t\t\tDataSet[j+1] = DataSet[j];\n" +
+                "\t\t\tDataSet[j] = temp;\n" +
+                "\t\t}\n" +
+                "\t}\n" +
+                "   }\n" +
+                "}");
         startActivityForResult(intent,1);
     }
 

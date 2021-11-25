@@ -26,7 +26,12 @@ public class circularlinkedlist extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_1_3_circularlinkedlist.class);
-        intent.putExtra("data", "circularlinkedlist 수도코드 작성하기");
+        intent.putExtra("data", "struct Node\n" +
+                "{\n" +
+                "\tData;\n" +
+                "\tstruct tagNode* PrevNode; \n" +
+                "\tstruct tagNode* NextNode;\n" +
+                "} Node;");
         startActivityForResult(intent,1);
     }
 

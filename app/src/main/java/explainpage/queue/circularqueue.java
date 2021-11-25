@@ -24,7 +24,18 @@ public class circularqueue extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_1_2_doublelinkedlist.class);
-        intent.putExtra("data", "circularqueue 수도코드 작성하기");
+        intent.putExtra("data", "typedef int ElementType;\n" +
+                "\n" +
+                "typedef struct tagNode{\n" +
+                "   ElementType Data;\n" +
+                "} Node;\n" +
+                "\n" +
+                "typedef struct tagCircularQueue{\n" +
+                "   int Capacity;\n" +
+                "   int Front;\n" +
+                "   int Rear;\n" +
+                "   Node* Nodes;\n" +
+                "} CircularQueue;");
         startActivityForResult(intent,1);
     }
 

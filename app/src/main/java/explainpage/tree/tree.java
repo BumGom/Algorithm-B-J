@@ -24,7 +24,21 @@ public class tree extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_1_2_doublelinkedlist.class);
-        intent.putExtra("data", "tree 수도코드 작성하기");
+        intent.putExtra("data", "typedef char ElementType;\n" +
+                "typedef struct tagLCRSNode\n" +
+                "{\n" +
+                "   struct tagLCRSNode* LeftChild;\n" +
+                "   strcut tagLCRSNode* RightSibling\n" +
+                "   ElementType Data;\n" +
+                "} LCRSNode;\n" +
+                "\n" +
+                "LCRSNode* LCRS_CreateNode(ElementType NewData)\n" +
+                "{\n" +
+                "   LCRSNode* NewNode = (LCRSNode*)malloc(sizeof(LCRSNode));\n" +
+                "   NewNode->Leftchild = NULL;\n" +
+                "   NewNode->RightSibling = NULL;\n" +
+                "   return NewNode;\n" +
+                "}");
         startActivityForResult(intent,1);
     }
 

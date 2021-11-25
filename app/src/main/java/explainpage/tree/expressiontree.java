@@ -24,7 +24,22 @@ public class expressiontree extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_1_2_doublelinkedlist.class);
-        intent.putExtra("data", "expresstiontree 수도코드 작성하기");
+        intent.putExtra("data", "void ET_BuildExpressionTree(char* PostfixExpression, ETNode** Node)\n" +
+                "{\n" +
+                "\tint len - strlen(PostfixExpression);\n" +
+                "\tchar Token = PostfixExpression[len - 1];\n" +
+                "\tPostfixExpression[len - 1] = '/0';\n" +
+                "\n" +
+                "\tswitch(Token)\n" +
+                "\t{\n" +
+                "\t\tcase '+' : case '-' : case'*' : case'/' :  (*Node) = ET_CreateNode(Token);\n" +
+                "\t\tET_BuildExpressionTree(PostfixExpression, &(*Node)->Right);\n" +
+                "\t\tET_BuildExpressionTree(PostfixExpression, &(*Node)->Left);\n" +
+                "\t\tbreak;\n" +
+                "\n" +
+                "\t\tdefault : (*Node) = ET_CreatNode(Token);\n" +
+                "\t}\n" +
+                "}");
         startActivityForResult(intent,1);
     }
 

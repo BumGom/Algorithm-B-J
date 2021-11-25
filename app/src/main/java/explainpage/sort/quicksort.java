@@ -25,7 +25,30 @@ public class quicksort extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_1_2_doublelinkedlist.class);
-        intent.putExtra("data", "quicksort 수도코드 작성하기");
+        intent.putExtra("data", "int Partition(int DataSet[], int Left, int Right){\n" +
+                "   int First = Left;\n" +
+                "   int Pivot = DataSet[First];\n" +
+                "   ++Left;\n" +
+                "   while(Left < Right){\n" +
+                "\twhile(DataSet[Left] <= Pivot)\n" +
+                "\t   ++Left;\n" +
+                "\twhile(DataSet[Right] > Pivot)\n" +
+                "\t   --Right;\n" +
+                "\tif(Left >= Right)\n" +
+                "\t   break;\n" +
+                "\tSwap(&DataSet[Left], &DataSet[Right]);\n" +
+                "   }\n" +
+                "   Swap(&DataSet[First], &DataSet[Right]);\n" +
+                "   return Right;\n" +
+                "}\n" +
+                "\n" +
+                "void QuickSort(int DataSet[], int Left, int Right){\n" +
+                "   if(Left < Right){\n" +
+                "\tint Index = Partition(DataSet, Left, Right);\n" +
+                "\tQuickSort = DataSet, Left, Index - 1);\n" +
+                "\tQuickSort = DataSet, Index + 1, Right);\n" +
+                "   }\n" +
+                "}");
         startActivityForResult(intent,1);
     }
 

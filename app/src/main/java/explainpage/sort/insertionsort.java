@@ -25,7 +25,20 @@ public class insertionsort extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_1_2_doublelinkedlist.class);
-        intent.putExtra("data", "insertionsort 수도코드 작성하기");
+        intent.putExtra("data", "void InsertionSort(int DataSet[]. int Length){\n" +
+                "   int i=0, j=0, value = 0;\n" +
+                "   for(i=1; i<Length; i++){\n" +
+                "\tif(DataSet[i-1] <= DataSet[i])\n" +
+                "\t   continue;\n" +
+                "\tvalue = DataSet[i];\n" +
+                "\tfor(j=0; j<i; j++){\n" +
+                "\t   if(DataSet[j] > value){\n" +
+                "\t\tmemmove(&DataSet[j+1], &DataSet[j], sizeof(DataSet[0] * (i-j));\n" +
+                "\t\tDataSet[j] = value;\n" +
+                "\t\tbreak; }\n" +
+                "\t}\n" +
+                "   }\n" +
+                "}");
         startActivityForResult(intent,1);
     }
 

@@ -27,7 +27,12 @@ public class doublelinkedlist extends AppCompatActivity {
     public void mOnPopupClick(View v) {
         //데이터 담아서 팝업(액티비티) 호출
         Intent intent = new Intent(this, pseudocode.pseudocode_1_2_doublelinkedlist.class);
-        intent.putExtra("data", "doublelinkedlist 수도코드 작성하기");
+        intent.putExtra("data", "struct Node\n" +
+                "{\n" +
+                "\tData;\n" +
+                "\tstruct tagNode* PrevNode;\n" +
+                "\tstruct tagNode* NextNode;\n" +
+                "} Node;");
         startActivityForResult(intent,1);
     }
 
