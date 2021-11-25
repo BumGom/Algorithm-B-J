@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AlgorithmBJ">
         <activity
-            android:name=".more_details"
-            android:exported="true" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -58,6 +55,8 @@
         <activity android:name="explainpage.string.kmp" />
         <activity android:name="explainpage.string.boyermoore" />
         <activity android:name="explainpage.string.brute" />
+        <activity android:name="extrapage.development_staff"/>
+        <activity android:name="extrapage.reference"/>
         <activity
             android:name="pseudocode.pseudocode_1_1linkedlist"
             android:theme="@android:style/Theme.Dialog" />

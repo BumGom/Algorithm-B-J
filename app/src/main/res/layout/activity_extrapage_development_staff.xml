@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="Development Staff"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:background="@color/black"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n\n\n\n\n 메카트로닉스공학 전공 부준호\n\n 메카트로닉스공학 전공 성준호\n\n장준혁(BumGom)\n\n3인 개발"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

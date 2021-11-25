@@ -134,9 +134,13 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.menu1:
                 Toast.makeText(getApplicationContext(),"개발자들",Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(getApplicationContext(),extrapage.development_staff.class);
+                startActivity(intent);
                 return true;
             case R.id.menu2:
                 Toast.makeText(getApplicationContext(),"참고 문헌",Toast.LENGTH_SHORT).show();
+                Intent intent1=new Intent(getApplicationContext(),extrapage.reference.class);
+                startActivity(intent1);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
