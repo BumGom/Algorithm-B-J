@@ -36,7 +36,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="설명"/>
+                android:text="큐는 컴퓨터의 기본적인 자료 구조의 한가지로, 먼저 집어넣은 데이터가 먼저 나오는 FIFO(First in, First out)구조로 저장하는 형식을 말한다.\n전단(Front) : 가장 먼저들어간 요소로 큐의 가장 앞을 의미\n후단(Rear) : 가장 마지막에 들어간 요소로 큐의 가장 뒤를 의미\n\n큐의 삽입은 후단, 큐의 제거는 전단에서 수행된다.\n\n장점\n- 구현이 매우 간단하다\n\n단점\n- 큐 배열에서 첫 인덱스를 제거하는 과정중 빈 인덱스를 채우기 위해 뒤에 인덱스들을 앞으로 옮기는데 드는 비용이 크다."/>
 
         </LinearLayout>
     </ScrollView>
