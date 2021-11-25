@@ -23,36 +23,31 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="327dp"
+                android:layout_height="330dp"
                 android:src="@drawable/string"/>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="188dp"
                 android:layout_weight="1">
                 <Button
                     android:id="@+id/karprabin"
                     android:layout_width="0dp"
-                    android:layout_height="100dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:text="카프-라빈 알고리즘"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
 
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1">
                 <Button
                     android:id="@+id/kmp"
                     android:layout_width="0dp"
-                    android:layout_height="100dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:text="KMP 알고리즘"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
-            </LinearLayout>
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
 
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -60,24 +55,21 @@
                 <Button
                     android:id="@+id/boyermoore"
                     android:layout_width="0dp"
-                    android:layout_height="100dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:text="보이어-무어 알고리즘"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1">
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
                 <Button
                     android:id="@+id/brute"
                     android:layout_width="0dp"
-                    android:layout_height="100dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:text="고지식한 알고리즘"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

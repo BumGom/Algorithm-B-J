@@ -23,34 +23,30 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="327dp"
+                android:layout_height="330dp"
                 android:src="@drawable/graph"/>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="188dp"
                 android:layout_weight="1">
                 <Button
                     android:id="@+id/graphrealization"
                     android:layout_width="0dp"
-                    android:layout_height="100dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:text="그래프의 구현"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
 
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1">
                 <Button
                     android:id="@+id/topological"
                     android:layout_width="0dp"
-                    android:layout_height="100dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:text="위상 정렬"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -60,24 +56,21 @@
                 <Button
                     android:id="@+id/mst"
                     android:layout_width="0dp"
-                    android:layout_height="100dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:text="최소 신장 트리"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1">
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
                 <Button
-                    android:id="@+id/dijkstra"
+                android:id="@+id/dijkstra"
                     android:layout_width="0dp"
-                    android:layout_height="100dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:text="최단 경로 탐색"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

@@ -23,48 +23,40 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="327dp"
-                android:src="@drawable/hash"/>
+                android:layout_height="330dp"
+                android:src="@drawable/hash" />
+
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="365dp"
                 android:layout_weight="1">
                 <Button
                     android:id="@+id/hashtable"
                     android:layout_width="0dp"
-                    android:layout_height="100dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:text="해쉬 테이블"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
 
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1">
                 <Button
                     android:id="@+id/hashfunction"
                     android:layout_width="0dp"
-                    android:layout_height="100dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:text="해쉬 함수"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
-            </LinearLayout>
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1">
                 <Button
                     android:id="@+id/collisionfix"
                     android:layout_width="0dp"
-                    android:layout_height="100dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:text="충돌 해결"
-                    android:textSize="20dp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:layout_margin="10dp"/>
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
