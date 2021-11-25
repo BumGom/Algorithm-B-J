@@ -35,7 +35,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="설명"/>
+                android:text="탐색하고자 하는 패턴을 본문 처음부터 끝까지 하나하나 비교하여 확인하는 방식
+\n본문의 길이가 m, 패턴의 길이가 n일경우 O(mn)의 시간복잡도를 갖는다."
+                android:textStyle="bold"
+                />
 
         </LinearLayout>
     </ScrollView>
