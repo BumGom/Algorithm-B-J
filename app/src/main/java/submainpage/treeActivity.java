@@ -24,7 +24,6 @@ public class treeActivity extends AppCompatActivity {
         treebutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(treeActivity.this, "트리", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), tree.class);
                 startActivity(intent);
             }
@@ -34,7 +33,6 @@ public class treeActivity extends AppCompatActivity {
         etbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(treeActivity.this, "수식 트리", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), expressiontree.class);
                 startActivity(intent);
             }

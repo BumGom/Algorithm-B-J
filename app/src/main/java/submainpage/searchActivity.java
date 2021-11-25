@@ -25,7 +25,6 @@ public class searchActivity extends AppCompatActivity {
         sqsbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(searchActivity.this, "순차 탐색", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), sequentialsearch.class);
                 startActivity(intent);
             }
@@ -35,7 +34,6 @@ public class searchActivity extends AppCompatActivity {
         bsbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(searchActivity.this, "이진 탐색(이진 탐색 트리)", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), binarysearch.class);
                 startActivity(intent);
             }
@@ -45,7 +43,6 @@ public class searchActivity extends AppCompatActivity {
         rbtbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(searchActivity.this, "레드 블랙 트리", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), redblacktree.class);
                 startActivity(intent);
             }

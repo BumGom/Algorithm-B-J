@@ -26,7 +26,6 @@ public class graphActivity extends AppCompatActivity {
         graphbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(graphActivity.this, "그래프의 구현", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), graph.class);
                 startActivity(intent);
             }
@@ -36,7 +35,6 @@ public class graphActivity extends AppCompatActivity {
         tsbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(graphActivity.this, "위상 정렬", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), topologicalsort.class);
                 startActivity(intent);
             }
@@ -46,7 +44,6 @@ public class graphActivity extends AppCompatActivity {
         mstbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(graphActivity.this, "최소 신장 트리", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), mst.class);
                 startActivity(intent);
             }
@@ -56,7 +53,6 @@ public class graphActivity extends AppCompatActivity {
         dijkstrabutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(graphActivity.this, "최단 경로 탐색", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), dijkstra.class);
                 startActivity(intent);
             }

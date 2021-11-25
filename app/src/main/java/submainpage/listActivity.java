@@ -25,7 +25,6 @@ public class listActivity extends AppCompatActivity {
         llbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(listActivity.this, "링크드 리스트", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), linkedlist.class);
                 startActivity(intent);
             }
@@ -35,7 +34,6 @@ public class listActivity extends AppCompatActivity {
         dllbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(listActivity.this, "더블 링크드 리스트", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), doublelinkedlist.class);
                 startActivity(intent);
             }
@@ -45,7 +43,6 @@ public class listActivity extends AppCompatActivity {
         cllbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(listActivity.this, "환영 링크드 리스트", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), circularlinkedlist.class);
                 startActivity(intent);
             }

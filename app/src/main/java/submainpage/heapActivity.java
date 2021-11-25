@@ -24,7 +24,6 @@ public class heapActivity extends AppCompatActivity {
         pqbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(heapActivity.this, "우선 순위 큐", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), priortiyqueue.class);
                 startActivity(intent);
             }
@@ -34,7 +33,6 @@ public class heapActivity extends AppCompatActivity {
         heapbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(heapActivity.this, "힙", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), heap.class);
                 startActivity(intent);
             }

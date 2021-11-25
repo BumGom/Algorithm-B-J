@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         listButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "리스트", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), listActivity.class);
                 startActivity(intent);
             }
@@ -41,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
         stackButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "스택", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), stackActivity.class);
                 startActivity(intent);
             }
@@ -50,7 +48,6 @@ public class MainActivity extends AppCompatActivity {
         queueButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "큐", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), queueActivity.class);
                 startActivity(intent);
             }
@@ -59,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
         treeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "트리", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), treeActivity.class);
                 startActivity(intent);
             }
@@ -68,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
         sortButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "정렬", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), sortActivity.class);
                 startActivity(intent);
             }
@@ -77,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
         searchButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "탐색", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), searchActivity.class);
                 startActivity(intent);
             }
@@ -86,7 +80,6 @@ public class MainActivity extends AppCompatActivity {
         heapButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "우선순위 큐와 힙", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), heapActivity.class);
                 startActivity(intent);
             }
@@ -95,7 +88,6 @@ public class MainActivity extends AppCompatActivity {
         hashButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "해쉬", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), hashActivity.class);
                 startActivity(intent);
             }
@@ -104,7 +96,6 @@ public class MainActivity extends AppCompatActivity {
         graphButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "그래프", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), graphActivity.class);
                 startActivity(intent);
             }
@@ -113,7 +104,6 @@ public class MainActivity extends AppCompatActivity {
         stringButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "문자열 검색", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), stringsearchActivity.class);
                 startActivity(intent);
             }

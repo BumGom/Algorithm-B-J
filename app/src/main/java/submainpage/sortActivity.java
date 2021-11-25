@@ -25,7 +25,6 @@ public class sortActivity extends AppCompatActivity {
         bbsbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(sortActivity.this, "버블 정렬", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), bubblesort.class);
                 startActivity(intent);
             }
@@ -35,7 +34,6 @@ public class sortActivity extends AppCompatActivity {
         issbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(sortActivity.this, "삽입 정렬", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), insertionsort.class);
                 startActivity(intent);
             }
@@ -45,7 +43,6 @@ public class sortActivity extends AppCompatActivity {
         qsbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(sortActivity.this, "퀵 정렬", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), quicksort.class);
                 startActivity(intent);
             }

@@ -25,7 +25,6 @@ public class hashActivity extends AppCompatActivity {
         htbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(hashActivity.this, "해쉬 테이블", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), hashtable.class);
                 startActivity(intent);
             }
@@ -35,7 +34,6 @@ public class hashActivity extends AppCompatActivity {
         hfbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(hashActivity.this, "해쉬 함수", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), hashfunction.class);
                 startActivity(intent);
             }
@@ -45,7 +43,6 @@ public class hashActivity extends AppCompatActivity {
         collisionbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(hashActivity.this, "충돌 해결", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), collision.class);
                 startActivity(intent);
             }

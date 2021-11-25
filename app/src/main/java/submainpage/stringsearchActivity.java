@@ -26,7 +26,6 @@ public class stringsearchActivity extends AppCompatActivity {
         krbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(stringsearchActivity.this, "카프-라빈 알고리즘", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), karprabin.class);
                 startActivity(intent);
             }
@@ -36,7 +35,6 @@ public class stringsearchActivity extends AppCompatActivity {
         kmpbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(stringsearchActivity.this, "kmp 알고리즘", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), kmp.class);
                 startActivity(intent);
             }
@@ -46,7 +44,6 @@ public class stringsearchActivity extends AppCompatActivity {
         bmbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(stringsearchActivity.this, "보이어-무어 알고리즘", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), boyermoore.class);
                 startActivity(intent);
             }
@@ -56,7 +53,6 @@ public class stringsearchActivity extends AppCompatActivity {
         boringbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(stringsearchActivity.this, "고지식한 알고리즘", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), brute.class);
                 startActivity(intent);
             }

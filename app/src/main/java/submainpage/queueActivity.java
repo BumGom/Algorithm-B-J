@@ -24,7 +24,6 @@ public class queueActivity extends AppCompatActivity {
         endeqbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(queueActivity.this, "큐 삽입과 제거", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), endequeue.class);
                 startActivity(intent);
             }
@@ -34,7 +33,6 @@ public class queueActivity extends AppCompatActivity {
         cqbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(queueActivity.this, "순환 큐", Toast.LENGTH_SHORT).show();
                 Intent intent=new Intent(getApplicationContext(), circularqueue.class);
                 startActivity(intent);
             }

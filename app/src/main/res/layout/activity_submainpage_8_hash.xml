@@ -37,7 +37,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:background="@drawable/explaincolorhashtable"
-                    android:layout_margin="10dp"/>
+                    android:layout_margin="20dp"/>
 
                 <Button
                     android:id="@+id/hashfunction"
@@ -53,13 +53,12 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="187dp">
+                android:layout_height="wrap_content">
 
                 <Button
                     android:id="@+id/collisionfix"
                     android:layout_width="166dp"
                     android:layout_height="150dp"
-                    android:layout_gravity="center"
                     android:background="@drawable/explaincolorcollision"
                     android:layout_margin="20dp"/>
 
