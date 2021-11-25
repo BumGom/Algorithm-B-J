@@ -24,7 +24,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="330dp"
-                android:src="@drawable/graph"/>
+                android:src="@drawable/subcolorgraph"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="188dp"
@@ -36,7 +36,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
-                    android:background="@drawable/colorgraph1"
+                    android:background="@drawable/explaincolorgraph1"
                     android:layout_margin="10dp"/>
 
                 <Button
@@ -46,7 +46,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
-                    android:background="@drawable/colortopologicalsort"
+                    android:background="@drawable/explaincolortopologicalsort"
                     android:layout_margin="10dp"/>
 
             </LinearLayout>
@@ -62,7 +62,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
-                    android:background="@drawable/colormst"
+                    android:background="@drawable/explaincolormst"
                     android:layout_margin="10dp"/>
 
                 <Button
@@ -72,7 +72,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
-                    android:background="@drawable/colordijkstra"
+                    android:background="@drawable/explaincolordijkstra"
                     android:layout_margin="10dp"/>
 
             </LinearLayout>

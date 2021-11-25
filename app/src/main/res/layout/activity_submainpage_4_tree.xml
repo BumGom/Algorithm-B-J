@@ -25,7 +25,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="330dp"
-                android:src="@drawable/tree"/>
+                android:src="@drawable/subcolortree"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="365dp"
@@ -37,7 +37,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
-                    android:background="@drawable/colortree1"
+                    android:background="@drawable/explaincolortree1"
                     android:layout_margin="10dp"/>
 
                 <Button
@@ -47,7 +47,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:textStyle="bold"
-                    android:background="@drawable/colorexpressiontree"
+                    android:background="@drawable/explaincolorexpressiontree"
                     android:layout_margin="10dp"/>
 
             </LinearLayout>

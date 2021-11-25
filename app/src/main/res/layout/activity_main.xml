@@ -36,7 +36,7 @@
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:background="@drawable/colorlist"
+                    android:background="@drawable/maincolorlist"
                     android:gravity="bottom"
                     android:layout_margin="10dp"/>
 
@@ -46,7 +46,7 @@
                     android:layout_height="100dp"
                     android:layout_weight="1"
                     android:gravity="bottom|center"
-                    android:background="@drawable/colorstack"
+                    android:background="@drawable/colorpushpopstack"
                     android:layout_margin="10dp" />
             </LinearLayout>
             <LinearLayout
@@ -81,14 +81,14 @@
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:background="@drawable/colorsort"
+                    android:background="@drawable/maincolorsort"
                     android:layout_margin="10dp"/>
                 <Button
                     android:id="@+id/search"
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:background="@drawable/colorsearch"
+                    android:background="@drawable/maincolorsearch"
                     android:layout_margin="10dp"/>
             </LinearLayout>
 
@@ -109,7 +109,7 @@
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:background="@drawable/colorhash"
+                    android:background="@drawable/maincolorhash"
                     android:layout_margin="10dp"
                     android:gravity="bottom"/>
             </LinearLayout>
@@ -130,7 +130,7 @@
                     android:layout_width="0dp"
                     android:layout_height="100dp"
                     android:layout_weight="1"
-                    android:background="@drawable/colorstring"
+                    android:background="@drawable/maincolorstring"
                     android:layout_margin="10dp"/>
             </LinearLayout>
         </LinearLayout>
