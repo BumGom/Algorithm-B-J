@@ -36,7 +36,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="설명"/>
+                android:text="큐 배열의 제거 과정중 생기는 단점을 보완하기 위한 큐\n\n장점\n- 큐 배열과 비교했을때, 메모리 낭비가 발생하지 않고, 큐가 꽉차 있는지 확인하기 용이하다.\n\n단점\n- 배열이기 때문에 크기가 정해져있다."/>
 
         </LinearLayout>
     </ScrollView>
