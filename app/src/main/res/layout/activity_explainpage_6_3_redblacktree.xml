@@ -36,7 +36,15 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="설명"/>
+                android:text="레드 블랙 트리는 자가 균형 이진 탐색 트리로서, 연관 배열등을 구현하는데 사용하는 자료구조이다.
+트리에 n개의 원소가 있을때 O(log n)의 시간 복잡도로 삽입, 삭제, 탐색을 할 수 있다.\n\n레드 블랙트리의 규칙\n
+1. 모든 노드는 빨간색 아니면 검은색이다.\n
+2. 루트 노드는 검은색이다.\n
+3. 잎 노드는 검은색이다.\n
+4. 빨간 노드의 자식들은 모두 검은색이다. 하지만 검은색 노드의 자식이 빨간색일 필요는 없다.\n
+5. 루트 노드에서 모든 잎 노드 사이에 있는 검은색 노드의 수는 모두 동일 하다."
+                android:textSize="15dp"
+                android:textStyle="bold"/>
 
         </LinearLayout>
     </ScrollView>
