@@ -32,22 +32,20 @@
                 <Button
                     android:id="@+id/karprabin"
                     android:layout_width="0dp"
-                    android:layout_height="120dp"
+                    android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:textStyle="bold"
                     android:background="@drawable/explaincolorkarprabin"
-                    android:layout_margin="10dp"/>
+                    android:layout_margin="20dp"/>
 
                 <Button
                     android:id="@+id/kmp"
                     android:layout_width="0dp"
-                    android:layout_height="120dp"
+                    android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:textStyle="bold"
                     android:background="@drawable/explaincolorkmp"
-                    android:layout_margin="10dp"/>
+                    android:layout_margin="20dp"/>
 
             </LinearLayout>
             <LinearLayout
@@ -57,20 +55,19 @@
                 <Button
                     android:id="@+id/boyermoore"
                     android:layout_width="0dp"
-                    android:layout_height="120dp"
+                    android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:textStyle="bold"
                     android:background="@drawable/explaincolorboyermoore"
-                    android:layout_margin="10dp"/>
+                    android:layout_margin="20dp"/>
 
                 <Button
                     android:id="@+id/brute"
                     android:layout_width="0dp"
-                    android:layout_height="120dp"
+                    android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:layout_margin="10dp"
+                    android:layout_margin="20dp"
                     android:background="@drawable/explainboring"/>
 
             </LinearLayout>

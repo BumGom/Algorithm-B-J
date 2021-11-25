@@ -32,22 +32,20 @@
                 <Button
                     android:id="@+id/graphrealization"
                     android:layout_width="0dp"
-                    android:layout_height="120dp"
+                    android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:textStyle="bold"
                     android:background="@drawable/explaincolorgraph1"
-                    android:layout_margin="10dp"/>
+                    android:layout_margin="20dp"/>
 
                 <Button
                     android:id="@+id/topological"
                     android:layout_width="0dp"
-                    android:layout_height="120dp"
+                    android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:textStyle="bold"
                     android:background="@drawable/explaincolortopologicalsort"
-                    android:layout_margin="10dp"/>
+                    android:layout_margin="20dp"/>
 
             </LinearLayout>
 
@@ -58,22 +56,20 @@
                 <Button
                     android:id="@+id/mst"
                     android:layout_width="0dp"
-                    android:layout_height="120dp"
+                    android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:textStyle="bold"
                     android:background="@drawable/explaincolormst"
-                    android:layout_margin="10dp"/>
+                    android:layout_margin="20dp"/>
 
                 <Button
                 android:id="@+id/dijkstra"
                     android:layout_width="0dp"
-                    android:layout_height="120dp"
+                    android:layout_height="150dp"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:textStyle="bold"
                     android:background="@drawable/explaincolordijkstra"
-                    android:layout_margin="10dp"/>
+                    android:layout_margin="20dp"/>
 
             </LinearLayout>
         </LinearLayout>
