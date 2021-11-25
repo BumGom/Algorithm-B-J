@@ -23,7 +23,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="330dp"
-                android:src="@drawable/image__10_4_boyermoore"/>
+                android:src="@drawable/image__10_3_boyermoore"/>
 
             <Button
                 android:onClick="mOnPopupClick"
