@@ -36,7 +36,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="설명"/>
+                android:text="링크드 리스트와 더블 링크드 리스트에서 테일의 다음 노드 포인터가 헤드를 가리키게 한 리스트이다.\n구조는 더블 링크드 리스트와 비슷하지만 각각의 포인터들이 환형을 이루도록 tail -> head를 가리키도록 연결한다.\n\n장점\n- 테일에 접근하는 비용이 작아져 성능이 향상된다.\n- 뒤에서부터 노드를 찾아나가는 노드 탐색 루틴 구현 가능"/>
 
         </LinearLayout>
     </ScrollView>
