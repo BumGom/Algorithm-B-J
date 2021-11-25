@@ -36,7 +36,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="설명"/>
+                android:text="데이터 집합을 순회 하면서 정렬이 필요한 요소를 뽑아내어 이를 다시 적당한 곳에 삽입해 나가는 알고리즘 이다.\n\n장점\n- 안정된 정렬 방법이며, 이미 레코드가 정렬되어 있는경우 시간 복잡도는 O(n)이다.
+\n\n단점\n- 레코드가 클 경우 많은 이동이 필요하기 때문에 다른 정렬 방법이 사용된다.
+"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
 
         </LinearLayout>
     </ScrollView>

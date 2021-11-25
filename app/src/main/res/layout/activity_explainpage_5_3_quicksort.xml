@@ -35,7 +35,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="설명"/>
+                android:text="분할 정복에 기반한 알고리즘으로, 기준점(Pivot)에 의한 분할을 통해 정렬을 수행한다.\n\n1. 데이터 집합 내에서 임의의 기준 요소를 선택하고, 기준 요소보다 작은 요소들은 순서에 관계없이 무조건 기준 요소 왼편에,
+    큰 값은 오른편에 위치시킨다.
+ \n2. 1번 과정으로 정렬된 데이터 집합내에서 같은 방법으로 기준점을 선택하여 위치시킴
+ \n3. 1, 2번 과정으로 더 이상 데이터 집합을 나눌 수 없을 때까지 반복한다.\n\n장점\n- 분할 과정에서 logn이라는 시간이 소요되며, 전체적으로 O(nlogn)시간이 소요된다.
+\n\n단점\n- 기존값에 따라 시간 복잡도가 크게 달라지며, 기준값을 이상적인 값으로 선택했다면 O(nlogn), 최악의 기준값을 선택할
+경우 O(n^2)라는 시간복잡도를 갖게된다."
+                android:textSize="15dp"
+                android:textStyle="bold"/>
 
         </LinearLayout>
     </ScrollView>
