@@ -11,8 +11,10 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+
 import android.widget.Toast;
 import androidx.appcompat.widget.Toolbar;
+
 
 import submainpage.graphActivity;
 import submainpage.hashActivity;
@@ -24,6 +26,10 @@ import submainpage.sortActivity;
 import submainpage.stackActivity;
 import submainpage.stringsearchActivity;
 import submainpage.treeActivity;
+
+
+
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,6 +45,11 @@ public class MainActivity extends AppCompatActivity {
         actionBar.setDisplayShowCustomEnabled(true);
         actionBar.setDisplayShowTitleEnabled(false);
         actionBar.setDisplayHomeAsUpEnabled(true);
+
+        //ImageView imageview=(ImageView) findViewById(R.id.boringsearchgifexplain);
+        //Glide.with(this).load(R.drawable.gifboringsearch).into((ImageView) findViewById(R.id.boringsearchgifexplain));
+
+
 
         Button listButton=(Button)findViewById(R.id.list);
         listButton.setOnClickListener(new View.OnClickListener(){
@@ -121,6 +132,9 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

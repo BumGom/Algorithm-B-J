@@ -21,9 +21,9 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/boringsearchgifexplain"
                 android:layout_width="match_parent"
-                android:layout_height="327dp"
-                android:src="@drawable/image"/>
+                android:layout_height="330dp" />
 
             <Button
                 android:onClick="mOnPopupClick"
