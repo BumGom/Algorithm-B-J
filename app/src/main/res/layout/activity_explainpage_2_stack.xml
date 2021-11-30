@@ -45,6 +45,7 @@
                 \n- 가장 간단한 형태의 자료구조방식으로 표현이 쉽고 간단합니다.
                 \n\n단점
                 \n- 크기가 고정된 배열구조 때문에 메모리가 낭비됩니다."
+                android:textSize="15dp"
                 android:textStyle="bold"
                 />
 

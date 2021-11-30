@@ -37,6 +37,7 @@
                 android:layout_height="wrap_content"
                 android:text="정렬된 데이터 집합에서 특정한 값의 위치를 찾는 알고리즘으로 탐색 범위를 1/2씩 줄여나가며 데이터를 탐색한다.\n\n장점\n- 탐색이 반복될 때마다 목표값을 찾을 확률은 두배가 되므로 속도가 빠름( O(logn)의 시간복잡도를 가짐)
 \n\n단점\n- 탐색 원리상 정렬된 데이터 집합에서만 사용 가능하다."
+                android:textSize="15dp"
                 android:textStyle="bold"
                 />
 

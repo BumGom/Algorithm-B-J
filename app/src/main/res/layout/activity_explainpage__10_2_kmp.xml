@@ -26,12 +26,13 @@
                 android:layout_height="327dp"/>
 
             <Button
-                android:onClick="mOnPopupClick"
+
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_gravity="right"
                 android:background="@drawable/kuniver"/>
-
+            // android:onClick="mOnPopupClick"
+            // 위에 코드 Button안에 넣기만 하면 수도코드 활성화
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -41,6 +42,7 @@
 \n접두부 : 문자열의 머리부분
 \n접미부 : 문자열의 꼬리부분
 \n경계 : 문자열에서 일치하는 접두부와 접미부의 쌍"
+                android:textSize="15dp"
                 android:textStyle="bold"
                 />
 

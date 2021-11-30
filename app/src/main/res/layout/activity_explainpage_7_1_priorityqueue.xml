@@ -26,12 +26,13 @@
                 android:src="@drawable/image_7_1_priorityqueue"/>
 
             <Button
-                android:onClick="mOnPopupClick"
+
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_gravity="right"
                 android:background="@drawable/kuniver"/>
-
+            // android:onClick="mOnPopupClick"
+            // 위에 코드 Button안에 넣기만 하면 수도코드 활성화
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

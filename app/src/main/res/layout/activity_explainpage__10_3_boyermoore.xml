@@ -26,12 +26,13 @@
                 android:layout_height="327dp"/>
 
             <Button
-                android:onClick="mOnPopupClick"
+
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_gravity="right"
                 android:background="@drawable/kuniver"/>
-
+            // android:onClick="mOnPopupClick"
+            // 위에 코드 Button안에 넣기만 하면 수도코드 활성화
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -46,6 +47,7 @@
 \n\n착한 접미부 이동(Good Suffix Shift)
 \n불일치가 일어났을 때 착한 접미부와 동일한 문자열의 패턴이 착한 접미부 왼쪽에 존재하는 경우 착한 접미부에 일치하도록 이동시킨다.
 \n만약 일치하는 경우가 없을 경우 패턴의 길이만큼 검색 위치를 오른쪽으로 이동시키면 된다."
+                android:textSize="15dp"
                 android:textStyle="bold"
                 />
 

@@ -23,20 +23,22 @@
             <ImageView
                 android:id="@+id/boringsearchgifexplain"
                 android:layout_width="match_parent"
-                android:layout_height="330dp" />
+                android:layout_height="230dp" />
 
             <Button
-                android:onClick="mOnPopupClick"
+
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_gravity="right"
                 android:background="@drawable/kuniver"/>
-
+            // android:onClick="mOnPopupClick"
+            // 위에 코드 Button안에 넣기만 하면 수도코드 활성화
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="탐색하고자 하는 패턴을 본문 처음부터 끝까지 하나하나 비교하여 확인하는 방식
 \n본문의 길이가 m, 패턴의 길이가 n일경우 O(mn)의 시간복잡도를 갖는다."
+                android:textSize="15dp"
                 android:textStyle="bold"
                 />
 

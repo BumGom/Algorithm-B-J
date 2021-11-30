@@ -41,6 +41,7 @@
                 \n\n장점
                 \n- 테일에 접근하는 비용이 작아져 성능이 향상된다.
                 \n- 뒤에서부터 노드를 찾아나가는 노드 탐색 루틴 구현 가능"
+                android:textSize="15dp"
                 android:textStyle="bold"
                 />
 
