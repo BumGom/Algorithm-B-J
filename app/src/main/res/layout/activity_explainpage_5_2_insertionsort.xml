@@ -21,10 +21,9 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/insertionsortgifexplain"
                 android:layout_width="match_parent"
-                android:layout_height="350dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/image_5_2_insertionsort"/>
+                android:layout_height="327dp"/>
 
             <Button
                 android:onClick="mOnPopupClick"
