@@ -3,11 +3,15 @@ package explainpage.string;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.bumptech.glide.request.RequestOptions;
 import com.example.algorithm_bj.R;
 
 public class kmp extends AppCompatActivity {
@@ -20,6 +24,11 @@ public class kmp extends AppCompatActivity {
         setContentView(R.layout.activity_explainpage__10_2_kmp);
 
         txtResult = (TextView) findViewById(R.id.textResult);
+
+        ImageView kmp = (ImageView) findViewById(R.id.kmpgifexplain);
+        Glide.with(this).load(R.raw.kmpgifraw)
+                .apply(new RequestOptions().diskCacheStrategy(DiskCacheStrategy.NONE))
+                .into(kmp);
     }
 
     public void mOnPopupClick(View v) {
