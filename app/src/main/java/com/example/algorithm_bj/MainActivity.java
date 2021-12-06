@@ -28,9 +28,6 @@ import submainpage.stringsearchActivity;
 import submainpage.treeActivity;
 
 
-
-
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -45,11 +42,6 @@ public class MainActivity extends AppCompatActivity {
         actionBar.setDisplayShowCustomEnabled(true);
         actionBar.setDisplayShowTitleEnabled(false);
         actionBar.setDisplayHomeAsUpEnabled(true);
-
-        //ImageView imageview=(ImageView) findViewById(R.id.boringsearchgifexplain);
-        //Glide.with(this).load(R.drawable.gifboringsearch).into((ImageView) findViewById(R.id.boringsearchgifexplain));
-
-
 
         Button listButton=(Button)findViewById(R.id.list);
         listButton.setOnClickListener(new View.OnClickListener(){
@@ -132,9 +124,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
-
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -142,7 +131,6 @@ public class MainActivity extends AppCompatActivity {
         menuInflater.inflate(R.menu.main_option,menu);
         return true;
     }
-
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
